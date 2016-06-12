@@ -5,10 +5,10 @@ python:
 
 build:
     post_ci:
-      - docker build -t 572384241454.dkr.ecr.us-east-1.amazonaws.com/tlvsummit:$BRANCH.$BUILD_NUMBER .
+      - docker build -t 825426488055.dkr.ecr.us-east-1.amazonaws.com/tlvsummit:$BRANCH.$BUILD_NUMBER .
 
     push:
-      - docker push 572384241454.dkr.ecr.us-east-1.amazonaws.com/tlvsummit:$BRANCH.$BUILD_NUMBER
+      - docker push 825426488055.dkr.ecr.us-east-1.amazonaws.com/tlvsummit:$BRANCH.$BUILD_NUMBER
 
 integrations:
     hub:
